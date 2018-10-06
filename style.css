@@ -1,0 +1,60 @@
+body{
+    background-color:black;
+    color:white;
+    margin:0;
+    padding:0;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+nav{
+    padding-top: 36px;
+}
+.topNavBar>nav>ul{
+    list-style: none;
+    padding: 0;
+    margin:0px 26px 0px 0px;
+    
+}
+.topNavBar>nav>ul>li{
+    float:left;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.topNavBar>nav>ul>li>a{
+    font-size: 15px;
+    font-weight: bold;
+    color:#b7b7b7;
+    border-bottom: 4px solid transparent;
+    padding-top:5px;
+    padding-bottom: 5px;
+    display: block;
+   
+}
+.topNavBar>nav>ul>li>a:hover{
+    border-bottom: 4px solid  #E8676B;
+}
+.topNavBar .logo{
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left:17px;
+    margin-top:25px;
+    margin-bottom: 10px;
+}
+
+.topNavBar .RS{
+    color:#E8676B;
+    margin-right:5px;
+}
+.topNavBar .card{
+    color:#b7b7b7;
+}
