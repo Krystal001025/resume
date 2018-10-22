@@ -326,10 +326,15 @@ section.portfolio .bar.state-2 .bar-inner{
 }
 section.portfolio .bar.state-3 .bar-inner{
     margin-left:140px;
-    
 }
 
-
+section.portfolio .jobs{
+    position: relative;
+}
+section.portfolio .jobs .small,
+section.portfolio .jobs .big{
+    position:absolute;
+}
 
 
 
